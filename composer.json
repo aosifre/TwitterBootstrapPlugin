@@ -1,0 +1,33 @@
+{
+  "name": "neopel/cakephp-plugin-twitterbootstrap",
+  "description": "CakePHP plugin twitter bootstrap",
+  "homepage": "https://github.com/neopel/TwitterBootstrapPlugin",
+  "type": "cakephp-plugin",
+  "license": "GNU",
+  "version": "0.0.1",
+  "require": {
+    "php": ">=5.5.9",
+    "cakephp/cakephp": "~3.3"
+  },
+  "require-dev": {
+    "psy/psysh": "@stable",
+    "cakephp/bake": "~1.1",
+    "phpunit/phpunit": "~4.8",
+    "phpro/grumphp": "^0.10.1",
+    "jakub-onderka/php-parallel-lint": "^0.9.2",
+    "friendsofphp/php-cs-fixer": "~1"
+  },
+  "suggest": {
+    "phpunit/phpunit": "Allows automated tests to be run without system-wide install.",
+    "cakephp/cakephp-codesniffer": "Allows to check the code against the coding standards used in CakePHP."
+  },
+  "autoload": {
+    "psr-4": {
+      "TwitterBootstrapPlugin\\": "src"
+    }
+  },
+  "scripts": {
+    "post-autoload-dump": "Cake\\Composer\\Installer\\PluginInstaller::postAutoloadDump"
+  },
+  "minimum-stability": "stable"
+}
