@@ -3,8 +3,7 @@
   "description": "CakePHP plugin twitter bootstrap",
   "homepage": "https://github.com/neopel/TwitterBootstrapPlugin",
   "type": "cakephp-plugin",
-  "license": "GNU",
-  "version": "0.0.1",
+  "license": "proprietary",
   "require": {
     "php": ">=5.5.9",
     "cakephp/cakephp": "~3.3"
